@@ -1,0 +1,220 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "name": "Adi Thomas",
+      "userName": "adi",
+      "password": "thomas"
+    },
+    {
+      "id": "2",
+      "name": "Abdul Gaffar",
+      "userName": "abdul",
+      "password": "gaffar"
+    }
+  ],
+  "courses": [
+    {
+      "id": "4e6a",
+      "uniqueCourseId": "ABC123",
+      "courseName": "OOPS Using Java",
+      "trainerName": "Durga Sir",
+      "courseDesc": "Learn Java concepts from industry expert, enroll and learn on your availability",
+      "courseFee": 3500,
+      "courseStartDate": "2024/10/05",
+      "currentStatus": "Open For Registrations",
+      "playlistLink": "https://www.youtube.com/watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+      "totalLearners": 0
+    },
+    {
+      "id": "4",
+      "uniqueCourseId": "nY2NPq0",
+      "courseName": "Go Language",
+      "trainerName": "Hitesh Tiwari",
+      "courseDesc": "Learn The basics of Golang from Hitesh.",
+      "courseFee": "1500",
+      "courseStartDate": "2024-12-02",
+      "currentStatus": "Open For Registration",
+      "playlistLink": "https://www.youtube.com/watch?v=JoJ8Sw5Yb4c&list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa",
+      "totalLearners": 0
+    },
+    {
+      "id": "4",
+      "uniqueCourseId": "f0A1JEI",
+      "courseName": "Next JS",
+      "trainerName": "Nirmal D",
+      "courseDesc": "Learn the concepts of NextJS from the industry expert by joining this course.",
+      "courseFee": "3500",
+      "courseStartDate": "2024-12-05",
+      "currentStatus": "Open For Registration",
+      "playlistLink": "https://www.youtube.com/watch?v=ZjAqacIC_3c&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI",
+      "totalLearners": 0
+    },
+    {
+      "id": "4",
+      "uniqueCourseId": "6Bp5TYq",
+      "courseName": "C++ Language",
+      "trainerName": "Abdul Bari",
+      "courseDesc": "Learn the concepts of C++ Language from the Industry expert trainer by enrolling in the course.",
+      "courseFee": "3000",
+      "courseStartDate": "2024-12-05",
+      "currentStatus": "Open For Registration",
+      "playlistLink": "https://www.youtube.com/watch?v=i6KU3ewo1lc&list=PLI27nkmaxyiPQLnET82M9Z9CN5_LRatnl",
+      "totalLearners": 0
+    },
+    {
+      "id": "5",
+      "uniqueCourseId": "DWACuh2",
+      "courseName": "Python",
+      "trainerName": "Durgesh Tiwari",
+      "courseDesc": "Learn the concepts of Python Programming language from Durgesh.",
+      "courseFee": "3499",
+      "courseStartDate": "2024-12-10",
+      "currentStatus": "Open For Registration",
+      "playlistLink": "https://www.youtube.com/watch?v=t2_Q2BRzeEE&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
+      "totalLearners": 0
+    }
+  ],
+  "learners": [
+    {
+      "id": "2",
+      "studentName": "Saniya Firdous",
+      "contactNumber": "9553539123",
+      "emailId": "saniyafirdous@gmail.com",
+      "userName": "saniya@projectvidya.com",
+      "password": "Saniya@123",
+      "isActive": true,
+      "uniqueId": 98761
+    },
+    {
+      "id": "10",
+      "studentName": "Vamshi Krishna",
+      "contactNumber": "8555002122",
+      "emailId": "vamshi@gmail.com",
+      "userName": "vamshikrishna@projectvidya.com",
+      "password": "Vamshi@123",
+      "isActive": true,
+      "uniqueId": "ar97KnR"
+    },
+    {
+      "id": "6",
+      "studentName": "K Santosh Reddy",
+      "contactNumber": "8189012011",
+      "emailId": "santoshreddy@gmail.com",
+      "userName": "ksantoshreddy@projectvidya.com",
+      "password": "Santosh@123",
+      "isActive": true,
+      "uniqueId": "mdsULuY"
+    },
+    {
+      "id": "6",
+      "studentName": "K Santosh Reddy",
+      "contactNumber": "8189012011",
+      "emailId": "santoshreddy@gmail.com",
+      "userName": "ksantoshreddy@projectvidya.com",
+      "password": "ZEaDKW3",
+      "isActive": true,
+      "uniqueId": "mdsULuY"
+    }
+  ],
+  "courseEnrollments": [
+    {
+      "id": "1",
+      "courseId": "nY2NPq0",
+      "learnerId": "N800My4",
+      "modeOfPayment": "Phone Pe",
+      "transactionID": "TXN12345",
+      "joiningDate": "2024-11-29",
+      "status": "Rejected"
+    },
+    {
+      "id": "2",
+      "courseId": "nY2NPq0",
+      "learnerId": "N800My4",
+      "modeOfPayment": "Phone Pe",
+      "transactionID": "TXN12345",
+      "joiningDate": "2024-11-29",
+      "status": "Approved"
+    },
+    {
+      "id": "3",
+      "courseId": "DWACuh2",
+      "learnerId": "tLaQefi",
+      "modeOfPayment": "Phone Pe",
+      "transactionID": "TXN12345",
+      "joiningDate": "2024-12-02",
+      "status": "Approved"
+    },
+    {
+      "id": "4",
+      "courseId": "DWACuh2",
+      "learnerId": "mdsULuY",
+      "modeOfPayment": "Phone Pe",
+      "transactionID": "TXN987654",
+      "joiningDate": "2024-12-02",
+      "status": "Approved"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "1",
+      "trainerName": "Abdul Bari",
+      "contactNumber": "8186948065",
+      "emailId": "abdulbari@gmail.com",
+      "status": "Active",
+      "totalExperience": "7",
+      "uniqueTrainerId": "UN1234"
+    },
+    {
+      "id": "2",
+      "trainerName": "Durgesh Tiwari",
+      "contactNumber": "8186948012",
+      "emailId": "durgesht@gmail.com",
+      "status": "Active",
+      "totalExperience": "9",
+      "uniqueTrainerId": "UN1100"
+    },
+    {
+      "id": "3",
+      "trainerName": "Shraddha K",
+      "contactNumber": "8186948032",
+      "emailId": "shraddhak@gmail.com",
+      "status": "Active",
+      "totalExperience": "3",
+      "uniqueTrainerId": "UN4321"
+    },
+    {
+      "id": "4",
+      "trainerName": "Faheem Unnissa",
+      "contactNumber": "9553530762",
+      "emailId": "faheemunnissa@gmail.com",
+      "status": "Active",
+      "totalExperience": "5",
+      "uniqueTrainerId": "",
+      "userName": "faheemunnissa@trainer.com",
+      "password": "frEYIE18"
+    },
+    {
+      "id": "5",
+      "trainerName": "Faheem Unnissa",
+      "contactNumber": "9848891209",
+      "emailId": "haroldfinch2018435@gmail.com",
+      "status": "Active",
+      "totalExperience": "32",
+      "uniqueTrainerId": "PV997746",
+      "userName": "faheemunnissa@trainer.com",
+      "password": "D56CNDl5"
+    },
+    {
+      "id": "6",
+      "trainerName": "Abdul Bari",
+      "contactNumber": "8186948065",
+      "emailId": "haroldfinch2018435@gmail.com",
+      "status": "Active",
+      "totalExperience": "5",
+      "uniqueTrainerId": "PV484995",
+      "userName": "abdulbari@trainer.com",
+      "password": "Dhv4g3za"
+    }
+  ]
+}
